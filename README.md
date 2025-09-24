@@ -29,20 +29,23 @@ Envia alertas por e-mail, Telegram ou Slack.
 
  
  ## 📂 Estrutura do Projeto
+```
 monitoring-tool/
-│── data/               # pasta para arquivos de log e demais
-    │──status.csv       # Relatórios salvos (Log)
-│── monitor.py          # Código principal
-│── config.json         # Configuração de hosts e portas
-│── requirements.txt    # Dependências
-│── README.md           # Documentação
-│── LICENSE.md          # Arquivo de licença
-
+├── data/
+│   └── status.csv       # Relatórios salvos (Log)
+├── monitor.py           # Código principal
+├── config.json          # Configuração de hosts e portas
+├── requirements.txt     # Dependências (se houver)
+├── README.md            # Documentação do projeto
+└── LICENSE.md           # Arquivo de licença
+```
 
 ## 📊 Exemplo de Saída (CSV)
+```
 DataHora,Host,IP,Porta,Status,Latencia
 2025-09-24 13:30,PC de Casa,192.168.0.10,22,OK,35ms
 2025-09-24 13:30,Roteador,192.168.0.1,80,FALHA,-
+```
 
 ## 🚀 Como rodar
 
