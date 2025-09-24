@@ -1,0 +1,47 @@
+{
+  "hosts": [
+    {
+      "name": "Note Allan",
+      "ip": "192.168.1.7",
+      "type": "notebook",
+      "ports": [22, 135, 139, 445, 3389, 80, 443],
+      "enabled": true
+    },
+    {
+      "name": "Roteador",
+      "ip": "192.168.1.1",
+      "type": "router",
+      "ports": [22, 23, 53, 80, 443, 7547],
+      "enabled": true
+    },
+
+    {
+      "name": "Servidor Linux (DB e Web)",
+      "ip": "meu-servidor-linux.com",
+      "type": "linux",
+      "ports": [22, 80, 443, 3306, 5432, 25, 465, 587, 6379, 27017],
+      "enabled": false
+    },
+    {
+      "name": "Servidor Windows (RDP/Files)",
+      "ip": "meu-servidor-windows.com",
+      "type": "windows",
+      "ports": [3389, 445, 135, 139, 1433, 5985, 5986],
+      "enabled": false
+    },
+    {
+      "name": "App Web / Proxy",
+      "ip": "meuapp.cloud.com",
+      "type": "cloud",
+      "ports": [80, 443, 8080, 8443, 9200, 15672, 9092],
+      "enabled": false
+    },
+    {
+      "name": "Servidor de Logs / Elastic",
+      "ip": "elastic.internal",
+      "type": "cloud",
+      "ports": [9200, 9300],
+      "enabled": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+DataHora,Host,Type,IP,Porta,Status,Latencia
+2025-09-24 14:24:11,Note Allan,notebook,192.168.1.7,22,FECHADA,-
+2025-09-24 14:24:11,Note Allan,notebook,192.168.1.7,135,ABERTA,-
+2025-09-24 14:24:11,Note Allan,notebook,192.168.1.7,139,ABERTA,-
+2025-09-24 14:24:11,Note Allan,notebook,192.168.1.7,445,ABERTA,-
+2025-09-24 14:24:13,Note Allan,notebook,192.168.1.7,3389,FECHADA,-
+2025-09-24 14:24:15,Note Allan,notebook,192.168.1.7,80,FECHADA,-
+2025-09-24 14:24:18,Note Allan,notebook,192.168.1.7,443,FECHADA,-
+2025-09-24 14:24:20,Roteador,router,192.168.1.1,22,FECHADA,3ms
+2025-09-24 14:24:22,Roteador,router,192.168.1.1,23,FECHADA,3ms
+2025-09-24 14:24:22,Roteador,router,192.168.1.1,53,ABERTA,3ms
+2025-09-24 14:24:22,Roteador,router,192.168.1.1,80,ABERTA,3ms
+2025-09-24 14:24:22,Roteador,router,192.168.1.1,443,ABERTA,3ms
+2025-09-24 14:24:24,Roteador,router,192.168.1.1,7547,FECHADA,3ms
+2025-09-24 14:56:15,Note Allan,notebook,192.168.1.7,22,FECHADA,-
+2025-09-24 14:56:15,Note Allan,notebook,192.168.1.7,135,ABERTA,-
+2025-09-24 14:56:15,Note Allan,notebook,192.168.1.7,139,ABERTA,-
+2025-09-24 14:56:15,Note Allan,notebook,192.168.1.7,445,ABERTA,-
+2025-09-24 14:56:17,Note Allan,notebook,192.168.1.7,3389,FECHADA,-
+2025-09-24 14:56:19,Note Allan,notebook,192.168.1.7,80,FECHADA,-
+2025-09-24 14:56:21,Note Allan,notebook,192.168.1.7,443,FECHADA,-
+2025-09-24 14:56:23,Roteador,router,192.168.1.1,22,FECHADA,3ms
+2025-09-24 14:56:25,Roteador,router,192.168.1.1,23,FECHADA,3ms
+2025-09-24 14:56:25,Roteador,router,192.168.1.1,53,ABERTA,3ms
+2025-09-24 14:56:25,Roteador,router,192.168.1.1,80,ABERTA,3ms
+2025-09-24 14:56:25,Roteador,router,192.168.1.1,443,ABERTA,3ms
+2025-09-24 14:56:27,Roteador,router,192.168.1.1,7547,FECHADA,3ms
