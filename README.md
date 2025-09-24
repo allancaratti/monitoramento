@@ -35,7 +35,7 @@ monitoramento/
 │   └── status.csv       # Relatórios salvos (Log)
 ├── monitor.py           # Código principal
 ├── config.json          # Configuração de hosts e portas
-├── requirements.txt     # Dependências (se houver)
+├── requirements.txt     # Dependências
 ├── README.md            # Documentação do projeto
 └── LICENSE.md           # Arquivo de licença
 ```
