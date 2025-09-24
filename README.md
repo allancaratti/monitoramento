@@ -30,7 +30,7 @@ Envia alertas por e-mail, Telegram ou Slack.
  
  ## 📂 Estrutura do Projeto
 ```
-monitoring-tool/
+monitoramento/
 ├── data/
 │   └── status.csv       # Relatórios salvos (Log)
 ├── monitor.py           # Código principal
@@ -51,8 +51,8 @@ DataHora,Host,IP,Porta,Status,Latencia
 
 Clone o repositório:
  ```bash
-git clone https://github.com/seuusuario/monitoring-tool.git
-cd monitoring-tool
+git clone https://github.com/seuusuario/monitoramento.git
+cd monitoramento
 ```
 
 Instale as dependências: `pip install -r requirements.txt`
